@@ -1,0 +1,32 @@
+MySql - 
+criar o banco de dados: 
+create database ti13cantina
+
+criar a tabela usuario com os seguintes campos:
+create table usuario (
+id int auto_increment primary key,
+usuario varchar(100),
+email varchar(100),
+senha varchar(30),
+perfil varchar(20))     
+
+
+perfil -  aluno
+          pais
+          cantina
+
+tabela de alunos
+----------------
+create table alunos (
+id_aluno int primary key,
+nome varchar(80) not null, 
+responsavel varchar(80) not null,
+email_responsavel varchar(80), 
+saldo_dia float,
+saldo_total float,
+id_reponsavel int);
+
+
+
+
+
