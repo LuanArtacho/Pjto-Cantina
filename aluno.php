@@ -25,6 +25,7 @@ session_start();
 			<?php echo $_SESSION['usuario']; ?></p>
 			<p style="color:red;text-align:center;">Email: 
 			<?php echo $_SESSION['email']; ?></p>
+
 			<form id="form" class="pure-form pure-form-stacked" action="atualiza_aluno.php" method="post">
 
 				<input type="text" name="aluno" class="pure-input-rounded" placeholder="Aluno"><br>
