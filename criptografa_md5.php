@@ -5,8 +5,7 @@ $criptografada = md5($senha);
 echo $criptografada; 
 
 /*descriptografar
-vantagem: não consigo descriptografar
-hash*/
+vantagem: não consigo descriptografar a hash*/
 
 /*caso eu tenha que verificar a senha armazenada.
 if($senhadigitada == md5($senhaguardada)) 
